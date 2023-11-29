@@ -1,0 +1,22 @@
+.card {
+  width: 250px;
+  padding: 16px;
+  text-align: left;
+  height: 290px;
+  display: block;
+}
+
+.tumbnail {
+  width: 230px;
+}
+
+.card:hover {
+  border: 1px rgb(230, 227, 227) solid;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.7rem;
+}

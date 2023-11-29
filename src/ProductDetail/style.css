@@ -1,0 +1,38 @@
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.price {
+  font-size: 1.7rem;
+}
+
+.page {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.button-buy {
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(123, 72, 170);
+  text-align: center;
+}
+
+.btn-quantity {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid rgb(123, 72, 170);
+  border-radius: 50%;
+}
+
+.quantity-number {
+  font-size: 1.75rem;
+}
