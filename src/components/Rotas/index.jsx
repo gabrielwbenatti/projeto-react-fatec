@@ -19,6 +19,11 @@ export default function Rotas() {
       price: 62.9,
       img_number: 3,
     },
+    // {
+    //   name: "Tanque de Tinta Preto e duiedhiuehdieud EPSON",
+    //   price: 62.9,
+    //   img_number: 4,
+    // },
   ];
 
   return (

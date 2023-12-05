@@ -7,6 +7,8 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  width: 100%;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -71,9 +73,10 @@ button:focus-visible {
   display: flex;
   align-items: center;
 }
+
 .column {
   display: flex;
-  /* align-items: start; */
+
   flex-direction: column;
 }
 

@@ -23,14 +23,14 @@ export default function HomePage({ products }) {
   // ];
 
   return (
-    <>
+    <div className="full-screen">
       <Header />
-      <div className="list full-screen">
+      <div className="list">
         {products.map((product, index) => {
           return <ProductCard product={product} index={index} />;
         })}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
