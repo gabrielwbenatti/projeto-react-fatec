@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
+import Row from "../Row/Row";
 
 function ProductCard({ product, index }) {
   const currency = new Intl.NumberFormat("pt-BR", {
@@ -19,10 +20,10 @@ function ProductCard({ product, index }) {
           />
         </div>
         <div>{product.name}</div>
-        <div className="row">
+        <Row>
           <div className="price">{currency} </div>
           <div>no pix</div>
-        </div>
+        </Row>
       </div>
     </Link>
   );

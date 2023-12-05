@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 import { useParams } from "react-router-dom";
+import Row from "../components/Row/Row";
 
 export default function ProductDetail({ products }) {
   let { id } = useParams();
@@ -23,9 +24,9 @@ export default function ProductDetail({ products }) {
 
   return (
     <div className="page">
-      <div className="row">
+      <Row>
         <div className="title">{product.name}</div>
-      </div>
+      </Row>
       <div className="row alg-top">
         <img
           src={`/public/assets/${product.img_number}.png`}
@@ -34,11 +35,11 @@ export default function ProductDetail({ products }) {
           height={350}
         />
         <div className="column">
-          <div className="row">
+          <Row>
             <p className="price">{currency}</p>
             <p>no pix</p>
-          </div>
-          <div className="row">
+          </Row>
+          <Row>
             <div className="button-buy">COMPRAR AGORA</div>
             <div className="row">
               <div className="btn-quantity" onClick={onMinusClick}>
@@ -49,7 +50,7 @@ export default function ProductDetail({ products }) {
                 +
               </div>
             </div>
-          </div>
+          </Row>
         </div>
       </div>
     </div>

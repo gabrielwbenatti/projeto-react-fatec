@@ -1,3 +1,5 @@
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 import ProductCard from "../components/ProductCard/ProductCard";
 import "./style.css";
 
@@ -21,10 +23,14 @@ export default function HomePage({ products }) {
   // ];
 
   return (
-    <div className="list full-screen">
-      {products.map((product, index) => {
-        return <ProductCard product={product} index={index} />;
-      })}
-    </div>
+    <>
+      <Header />
+      <div className="list full-screen">
+        {products.map((product, index) => {
+          return <ProductCard product={product} index={index} />;
+        })}
+      </div>
+      <Footer />
+    </>
   );
 }

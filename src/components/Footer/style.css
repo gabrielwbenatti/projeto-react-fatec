@@ -1,0 +1,10 @@
+footer {
+  width: 100%;
+  height: fit-content;
+  padding: 16px;
+  background-color: rgb(34, 4, 74);
+}
+
+.spacer-16 {
+  padding-right: 16px;
+}
